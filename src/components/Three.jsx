@@ -5,15 +5,15 @@ import { Stats, OrbitControls, Environment, useGLTF, Clone, Html, ContactShadows
 import { useControls } from 'leva';
 
 const Models = [
-  { title: '1', url: './1.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '2', url: './2.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '3', url: './3.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '4', url: './4.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '5', url: './5.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '6', url: './6.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '7', url: './7.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '8', url: './8.glb', miEscala: 1.1, miPosicion: 4 },
-  { title: '9', url: './9.glb', miEscala: 1.1, miPosicion: 4 },
+  { title: 'CRO1', url: './CRO1.glb', miEscala: 1.1, miPosicion: 4 },
+  { title: 'CRO2', url: './CRO2.glb', miEscala: 1.1, miPosicion: 4 }
+  // { title: '3', url: './3.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '4', url: './4.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '5', url: './5.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '6', url: './6.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '7', url: './7.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '8', url: './8.glb', miEscala: 1.1, miPosicion: 4 },
+  // { title: '9', url: './9.glb', miEscala: 1.1, miPosicion: 4 },
 ];
 
 function Model({ url, miEscala, miPosicion }) {
